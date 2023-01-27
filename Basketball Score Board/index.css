@@ -1,0 +1,77 @@
+body
+{
+    font-family: Orbitron, Verdana, Geneva, Tahoma, sans-serif;
+    font-size: xx-large;
+    text-align: center;
+    background-image: url("pixel-island-madgearu-02.gif");
+}
+
+.Team
+{
+    color: aliceblue;
+    margin-bottom: 18px;
+}
+
+.Outer-Container
+{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(64, 77, 52);
+    border: 8px dashed rgb(109, 129, 89);
+    width: 600px;
+    height: 300px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 30px;
+    
+}
+
+.First-Inner-Container
+{
+    margin-right: 45px;
+    font-family: Orbitron, Verdana, Geneva, Tahoma, sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.Second-Inner-Container
+{
+    margin-left: 45px;
+    font-family: Orbitron, Verdana, Geneva, Tahoma, sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+#scoreh, #scoreg
+{
+    font-family: Orbitron, Verdana, Geneva, Tahoma, sans-serif;
+    border-style: none;
+    padding: 25px 40px;
+    font-size: 70px;
+    margin-top: 8px;
+    margin-bottom: 12px;
+    background-color: rgb(230, 221, 99);
+    border-radius: 6px;
+    margin-bottom: 20px;
+}
+
+.score-btn
+{
+    font-family: Orbitron, Verdana, Geneva, Tahoma, sans-serif;
+    border: solid 2px rgb(167, 113, 224);
+    background-color:  rgb(90, 119, 129);
+    padding: 15px;
+    margin-left: 6px;
+    margin-right: 6px;
+    color: aliceblue;
+    border-radius: 10px;
+
+    
+}
+
+
+

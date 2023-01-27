@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+
+<html>
+
+    <head>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=GFS+Neohellenic:wght@400;700&family=Happy+Monkey&family=Orbitron:wght@900&family=Roboto:ital,wght@0,400;0,500;0,700;0,900;1,400;1,700&family=Shadows+Into+Light&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="index.css">
+        <title>A Basketball Score Counter</title>
+
+    </head>
+
+    <body>
+
+         
+        <div class="Outer-Container">
+
+            <div class="First-Inner-Container">
+                <div class="Team">HOME</div>
+
+                <div>
+                    <button id="scoreh">0</button>
+                </div>
+
+                <div class="add-score-buttons">
+                    <button id="PlusOneh" class="score-btn" onclick="PlusOneH()">+1</button>
+                    <button id="PlusTwoh" class="score-btn" onclick="PlusTwoH()">+2</button>
+                    <button id="PlusThreeh" class="score-btn" onclick="PlusThreeH()">+3</button>
+                </div>
+            </div>
+
+            <div class="Second-Inner-Container">
+                <div class="Team">GUEST</div>
+
+                <div>
+                    <button id="scoreg">0</button>
+                </div>
+
+                <div class="add-score-buttons">
+                    <button id="PlusOneg" class="score-btn" onclick="PlusOneG()">+1</button>
+                    <button id="PlusTwog" class="score-btn" onclick="PlusTwoG()">+2</button>
+                    <button id="PlusThreeg" class="score-btn" onclick="PlusThreeG()">+3</button>
+                </div>
+            </div>
+
+        </div>
+
+        <script src="index.js"></script>
+
+    </body>
+
+</html>
